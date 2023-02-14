@@ -39,7 +39,7 @@ def get_weather(city, open_weather_token):
                   "\r\nВетер:",i['wind']['speed'],
                   "\r\nВидимость:",i['visibility'])
             print("____________________________")
-            print("Хорошего дня. До свидания!")
+        print("Хорошего дня. До свидания!")
 
 
     except Exception as ex:
